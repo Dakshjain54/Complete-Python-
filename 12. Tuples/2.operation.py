@@ -18,7 +18,7 @@ res = tuple1.count(2)
 print("count = ", res)
 
 res = tuple1.index(6)
-res = tuple1.index(6,4,9)
+res = tuple1.index(6,4,9) #(value, start, end)
 print("index = " , res)
 
 res = len(tuple1)
